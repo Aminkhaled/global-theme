@@ -204,3 +204,21 @@
     margin-right: 50px;
   }
 }
+.progress-box-1 .progress-label {
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 500px) {
+  .progress-box-1 .progress-label {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  .au-progress-1 .au-progress-bar span {
+    font-size: 13px;
+    position: absolute;
+    top: -26px;
+    right: 32px;
+  }
+}
